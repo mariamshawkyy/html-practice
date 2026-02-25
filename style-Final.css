@@ -1,0 +1,52 @@
+body {
+  background-color: #f2f4f7;
+  font-family: sans-serif;
+}
+
+#main_page_header {
+  background-color: mistyrose;
+}
+
+#drake_page_header {
+  background-color: lightpink;
+}
+
+#ariana_page_header {
+  background-color: lightpink;
+}
+
+#songs,
+#ariana_songs,
+#drake_songs {
+  background-color: lightblue;
+  border: 1px solid black;
+}
+
+#albums,
+#ariana_albums,
+#drake_albums {
+  background-color: lightyellow;
+  border: 1px solid black;
+}
+
+.section-box {
+  padding: 15px;
+  border-radius: 8px;
+}
+
+img {
+  border-radius: 8px;
+}
+
+.subheader {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+
